@@ -1,0 +1,106 @@
+
+# ==============================
+# Gradle
+# ==============================
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local Gradle configuration
+gradle-app.setting
+.gradletasknamecache
+.kotlinc/
+
+# ==============================
+# Android Studio / IntelliJ IDEA
+# ==============================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Keep project-level shared IDE settings out of Git.
+# Commit code styles/run configurations separately if your team needs them.
+
+# ==============================
+# Local SDK configuration
+# ==============================
+local.properties
+
+# ==============================
+# Signing keys and credentials
+# ==============================
+*.jks
+*.keystore
+keystore.properties
+key.properties
+signing.properties
+
+# Never commit secrets or local environment files
+.env
+.env.*
+!.env.example
+secrets.properties
+
+# ==============================
+# Build outputs and packages
+# ==============================
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# ==============================
+# Native build outputs
+# ==============================
+.cxx/
+.externalNativeBuild/
+
+# ==============================
+# Generated Android files
+# ==============================
+captures/
+output-metadata.json
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Crash reports and heap dumps
+# ==============================
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# ==============================
+# Test and coverage outputs
+# ==============================
+/coverage/
+**/coverage/
+**/jacoco/
+*.exec
+
+# ==============================
+# Android Studio profiler
+# ==============================
+*.trace
+*.prof
+
+# ==============================
+# Optional: generated screenshots
+# Uncomment if these are only local artifacts
+# ==============================
+# screenshots/

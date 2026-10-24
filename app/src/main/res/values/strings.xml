@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">d1 wallet</string>
+
+    <!-- Shared actions -->
+    <string name="action_try_again">Try again</string>
+    <string name="action_logout">Log out</string>
+    <string name="logout_confirm_title">Log out?</string>
+    <string name="logout_confirm_message">You\'ll need to sign in again to see your accounts.</string>
+    <string name="logout_confirm_cancel">Cancel</string>
+    <string name="action_back_to_accounts">Back to accounts</string>
+    <string name="action_back">Back</string>
+    <string name="loading">Loading…</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome</string>
+    <string name="login_subtitle">Log in to access your wallet.</string>
+    <string name="login_identifier_hint">Username / Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Log in</string>
+    <string name="login_button_loading">Logging in…</string>
+    <string name="login_error_identifier_required">Enter your username or email.</string>
+    <string name="login_error_password_required">Enter your password.</string>
+    <string name="login_error_invalid_credentials">That username or password doesn\'t match. Check them and try again.</string>
+    <string name="login_error_unavailable">We couldn\'t log you in right now. Please try again in a moment.</string>
+
+    <!-- Wallet dashboard -->
+    <string name="wallet_title">Your accounts</string>
+    <string name="wallet_accounts">You hold %1$s wallet account(s).</string>
+    <string name="wallet_empty_title">No accounts yet</string>
+    <string name="wallet_empty_message">When you open an account, it\'ll show up here.</string>
+    <string name="wallet_error_title">Couldn\'t load your accounts</string>
+    <string name="wallet_error_message">Check your connection and try again.</string>
+    <!-- %1$s is the currency code, e.g. USD. %2$s is its name, e.g. US Dollar. -->
+    <string name="account_currency">%1$s · %2$s</string>
+    <string name="account_item_description">%1$s, %2$s, balance %3$s. Double tap to view statement.</string>
+
+    <!-- Statement -->
+    <string name="statement_title">Statement</string>
+    <string name="statement_current_balance">Current balance</string>
+    <string name="statement_period">Last 30 days · %1$s – %2$s</string>
+    <string name="statement_empty_title">No transactions in the last 30 days</string>
+    <string name="statement_empty_message">Anything you spend or receive in this account will appear here.</string>
+    <string name="statement_not_found_title">Account not found</string>
+    <string name="statement_not_found_message">We couldn\'t find that account. It may have been closed.</string>
+    <string name="statement_error_title">Couldn\'t load this statement</string>
+    <string name="statement_error_message">Check your connection and try again.</string>
+    <string name="transaction_balance_after">Balance : %1$s</string>
+    <string name="transaction_item_description_credit">%1$s, %2$s. Money in: %3$s, on %4$s. Balance after: %5$s.</string>
+    <string name="transaction_item_description_debit">%1$s, %2$s. Money out: %3$s, on %4$s. Balance after: %5$s.</string>
+
+    <string name="transaction_type_deposit">Deposit</string>
+    <string name="transaction_type_transfer_in">Transfer in</string>
+    <string name="transaction_type_refund">Refund</string>
+    <string name="transaction_type_payment">Payment</string>
+    <string name="transaction_type_transfer_out">Transfer out</string>
+    <string name="transaction_type_withdrawal">Withdrawal</string>
+    <string name="transaction_type_fee">Fee</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#A2C9FF</color>
+    <color name="brand_on_primary">#001F4C</color>
+    <color name="brand_primary_container">#004880</color>
+    <color name="brand_on_primary_container">#D3E4FF</color>
+
+    <color name="amount_credit">#8BD79B</color>
+    <color name="amount_debit">#A80202</color>
+    <color name="logout_icon">#E91E63</color>
+</resources>
