@@ -50,9 +50,6 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         viewModel.getState().observe(this, this::render);
-
-        binding.identifierInput.setText("demo@example.com");
-        binding.passwordInput.setText("password123");
     }
 
     @Override
